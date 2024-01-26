@@ -1,6 +1,32 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<-- Image from AmIResponsive https://ui.dev/amiresponsive -->
 
-Welcome USER_NAME,
+# Testing 
+    <-- check out this video for more information https://www.youtube.com/watch?v=Q66HZgkDSOo -->
+## Features Testing
+
+![Features Testing](assets/images/rmFeatTest.png)
+
+
+| Column 1 | Column 2 | Column 3 | Column 4 |
+|----------|----------|----------|----------|
+|   Data   |   Data   |   Data   |   Data   |
+|   Data   |   Data   |   Data   |   Data   |
+
+## Browser Compatability
+| Column 1 | Column 2 | Column 3 | Column 4 |
+|----------|----------|----------|----------|
+|   Data   |   Data   |   Data   |   Data   |
+|   Data   |   Data   |   Data   |   Data   |
+
+## Responsiveness
+## Code Validation
+## Bugs
+## Lighthouse
+## Accessibility
+
+
+
+Welcome bizboz1981 ,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
