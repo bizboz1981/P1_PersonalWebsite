@@ -13,18 +13,19 @@
 
 
 .hero-container {
-    background-image: url("../assets/images/image-2.jpg");
-    min-height: 500px;
+    background-image: url("../images/image-2.jpg");
+    height: 100vh;
+    min-width: 100px;
     background-attachment: fixed;
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    /* height: 100vh;
-    background: url("../assets/images/image-2.jpg") no-repeat bottom right fixed / cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    z-index: 1000; */
+
+body p {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
 }
