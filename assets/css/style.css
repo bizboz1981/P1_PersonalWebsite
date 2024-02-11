@@ -1,31 +1,37 @@
-/*-------------------------------------------------------------------- Google Fonts */
-/* -----------Remove unused heading fonts (Lato, Exo, Fjalla One) before deployment */
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Exo:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-/*------------------------------------------------------------------------- Colors */
-
-
-/* ------------------------------------------------------------------- Navbar */
-
-
-
-/* ------------------------------------------------------------------- Hero */
-
-
-
-.hero-container {
-    background-image: url("../images/image-2.jpg");
-    height: 100vh;
-    min-width: 100px;
-    background-attachment: fixed;
+.hero-image {
+    background-image: url("/assets/images/HeadshotLandscape.jpg");
     position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
     background-size: cover;
+    bottom: 0;
+    right: 0;
+    z-index: -200;
+    background-repeat: no-repeat;
 }
 
+/* 
+.test {
+    font-size: xx-large;
+    background-image: url("/assets/images/HeadshotLandscape.jpg");
+    background-size: cover;
+} */
 
-body p {
-    font-family: "Fjalla One", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bolder;
+.buzz-words {
+    background-color: transparent;
+    color: white;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+    line-height: 200%;
+    font-size: xx-large;
+    background-color: #303030;
+}
+
+.navbar {
+    z-index: 100;
+}
+
+.blank {
+    height: 100vh;
 }
