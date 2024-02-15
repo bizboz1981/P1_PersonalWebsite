@@ -1,12 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Exo:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 .hero-image {
     background-image: url("/assets/images/HeadshotLandscape.jpg");
     position: relative;
     background-attachment: fixed;
     height: 100vh;
     background-size: cover;
-    background-position: bottom right;
-    bottom: 0;
-    right: 0;
+    background-position: center right;
     z-index: -200;
     background-repeat: no-repeat;
 }
@@ -19,14 +19,15 @@
 } */
 
 .buzz-words {
-    background-color: transparent;
-    color: white;
-    height: 100vh;
-    text-align: center;
-    padding-top: 10%;
-    line-height: 200%;
-    font-size: xx-large;
     background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "anonymous pro", monospace;
+    color: white;
+    height: auto;
+    font-size: x-large;
+    line-height: 150%;
 }
 
 .navbar {
@@ -36,3 +37,22 @@
 .blank {
     height: 100vh;
 }
+
+@media (max-width: 992px) {
+    .hero-image {
+        background-position: calc(100% + 100px) center;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .hero-image {
+        background-image: url("/assets/images/image-2.jpg");
+        position: relative;
+        background-attachment: fixed;
+        height: 100vh;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+} */
