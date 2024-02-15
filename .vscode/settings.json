@@ -9,7 +9,8 @@
    "cornflakes.linter.executablePath": "/home/gitpod/.pyenv/shims/flake8",
    "files.exclude": {
       "**/.DS_Store": true,
-      "**/.git": true,
+      "**/.git": false,
+      "**/.git: false": true,
       "**/.github": true,
       "**/.gitp*": true,
       "**/.hg": true,
